@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+		<script type="text/javascript" src="scripts/jquery.js"></script>
+		<script type="text/javascript" src="scripts/rotateBg.js"></script>
+	    <link rel="apple-touch-icon" href="images/touch-icon-iphone.png">
+	    <link rel="apple-touch-icon" sizes="72x72" href="images/touch-icon-ipad.png">
+	    <link rel="apple-touch-icon" sizes="114x114" href="images/touch-icon-iphone4.png">
+	    <link rel="icon" href="images/favicon.ico">
+	    <link rel="stylesheet" media="screen" type="text/css" href="styles/home.css">
+		<title>MikeChabot.org</title>
+	</head>
+
+	<body>
+	    <img class="bg" src="images/bg.jpg"/>
+
+		       	<!-- Twitter Container -->
+				<div class="twitter-container">
+					<table>
+		    			<tr>
+		      				<td>
+		                  		Latest Tweet
+		                	</td>
+		      				<td>
+		                  		<a href="http://www.twitter.com/mchabot21"><img src="http://twitter-badges.s3.amazonaws.com/t_small-c.png" alt="Follow mchabot21 on Twitter"/></a>
+		       				</td>
+		    			</tr>
+		     		</table>
+
+		        	<!-- Twitter Text Container -->
+		       		<div class="twitter-text-container">
+		        		<span id="twitter_update_list"></span>
+		        		<p>
+		        		<span id="last_updated"></span>
+		        	</div>
+		        	<!-- End Twitter Text Container -->
+
+		        </div>
+		        <!-- End Twitter Container -->
+
+				<!-- Groovershark Container -->
+		        <div class="grooveshark-container">
+					<object width="300" height="40"><param name="movie" value="http://grooveshark.com/songWidget.swf" /><param name="wmode" value="window" /><param name="allowScriptAccess" value="always" /><param name="flashvars" value="hostname=cowbell.grooveshark.com&songIDs=25280498&style=metal&p=0" /><embed src="http://grooveshark.com/songWidget.swf" type="application/x-shockwave-flash" width="300" height="40" flashvars="hostname=cowbell.grooveshark.com&songIDs=25280498&style=metal&p=0" allowScriptAccess="always" wmode="window" /></object>
+		        </div>
+		        <!-- Groovershark Container -->
+
+		        <!-- Links Outer Containter -->
+		        <div class="links-outer-container">
+		             <!-- Links Inner Containter -->
+					<div class="links-inner-container">
+		            <table class="links">
+					<tr>
+		              	<th width="25%">Dev</td>
+		              	<th width="37%">Music</td>
+		              	<th width="35%">Contact</td>
+		            </tr>
+		            <tr>
+		                 <td>
+		                	<ul>
+		                        <li>&nbsp;:&nbsp;&nbsp;<a href="mbta/maps.html" target="_new">mbta/maps</a></li>
+		                        <li>&nbsp;:&nbsp;&nbsp;<a href="mbta/earth.html" target="_new">mbta/earth</a></li>
+		                    </ul>
+		                </td>
+		            	<td>
+		                	<ul>
+		            			<li>&nbsp;:&nbsp;&nbsp;<a href="http://snow.bandcamp.com" target="_new">snow.bandcamp.com</a></li>
+		                        <li>&nbsp;:&nbsp;&nbsp;<a href="http://www.myspace.com/theindobox" target="_new">myspace.com/theindobox</a></li>
+		                    </ul>
+		                </td>
+		            	<td>
+		                	<ul>
+		            			<li>&nbsp;:&nbsp;&nbsp;<a href="http://www.facebook.com/chabot.mike" target="_new">facebook.com/chabot.mike</a></li>
+		                		<li>&nbsp;:&nbsp;&nbsp;<a href="http://www.twitter.com/mchabot21" target="_new">twitter.com/mchabot21</a></li>
+		                		<li>&nbsp;:&nbsp;&nbsp;<a href="http://www.linkedin.com/in/mikechabot" target="_new">linkedin.com/in/mikechabot</a></li>
+		                    </ul>
+		              	</td>
+		            </tr>
+		            </table>
+				  </div>
+				  <!-- End Links Inner Container -->
+				</div>
+				<!-- End Links Outer Container -->
+
+				<script type="text/javascript" src="scripts/twitter-feed.js"></script>
+				<script type="text/javascript" src="https://api.twitter.com/1/statuses/user_timeline/MichaelAChabot.json?callback=twitterCallback2&count=1"></script>
+
+
+	</body>
+
+</html>
+

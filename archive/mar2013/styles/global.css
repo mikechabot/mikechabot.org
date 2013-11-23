@@ -1,0 +1,161 @@
+@charset "utf-8";
+
+/*
+-----------------------------------------------------------------------------
+ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ 
+||M |||i |||k |||e |||C |||h |||a |||b |||o |||t |||. |||o |||r |||g ||
+||__|||__|||__|||__|||__|||__|||__|||__|||__|||__|||__|||__|||__|||__||
+|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|
+
+
+Take whatever you'd like
+
+-----------------------------------------------------------------------------
+*/
+
+a:link {color:#c0c0c0;text-decoration: none; }     
+a:visited {color: #c0c0c0;text-decoration: none;}     
+a:hover {color:#c0c0c0;text-decoration: underline;}
+a:active {color: #c0c0c0;text-decoration: none;} 
+
+a img {border: none;}
+
+body {
+	font-family:Ropa Sans, Arial, Tahoma, Verdana, Times, serif;
+	background-image:url('../images/argyle.png');
+	}	
+
+div#title {
+	position:absolute;
+	left:183px;
+	bottom:130px;
+	}
+
+span#title {
+	font-family:Berkshire Swash;
+	font-size:64px;
+	color: #FFFFFF;	
+	}
+
+
+/* Cloud */
+
+.cloud {
+	position:absolute;
+	bottom:5%;
+	background-image: url(../images/cloud-lines.png);
+	width:128px;
+	height:119px;
+	color:#FFFFFF;
+	opacity:.8;
+	}
+		
+/* Links Container */	
+.links-outer-container {
+	position:absolute;
+	bottom:5%;
+	left:117px;
+	background:#000000;	
+	border-top:solid 1px #FFFFFF;
+	border-right:solid 1px #FFFFFF;
+	border-bottom:solid 1px #FFFFFF;
+	width:600px;
+	opacity:.8;	
+	}	
+
+table.links {  
+	text-align:left;
+	font-family: Ropa Sans, Pontano Sans, Arial, Tahoma, Verdana, Times, serif;
+        }
+
+table.links th {
+	vertical-align: top;	
+	color: #FFFFFF;
+	font-size:20px;
+	text-align:left;
+	border-bottom:1px solid #FFFFFF;
+	}
+       
+table.links th#non-underline {
+	border-bottom:0px;
+	width:30px;
+	}
+	
+table.links th#non-underline-middle {
+	border-bottom:0px;
+	width:50px;
+	}
+	
+table.links td {
+	vertical-align: top;		
+	}
+         
+table.links ul {
+    	list-style-type:none;	
+	padding:0px;
+	margin:0px;
+	text-indent:5px;
+	color:#FFFFFF;
+	font-size:14px;
+	}	
+
+/* Twitter Container */	
+.twitter-container {
+	position:absolute;
+	right:0px;	
+	margin-top:5px;
+	margin-right:5px;
+	width:310px;	
+	/* 
+	border:solid 1px #FFFFFF;
+	opacity:.70;
+	background-image:url('../images/darkdenim.png');
+	 */
+	}	
+	
+table#twitter tr.space td{
+	padding-top: 40px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	}
+	
+table#twitter tr.top-space td{
+	padding-top: 20px;
+	padding-left: 5px;
+	}
+
+table#name {
+	border-bottom:1px solid white;
+	font-size:16px;	
+	width:100%;
+	padding:0px;
+	margin:0px;
+	}
+	
+table#name tr td.center {
+	text-align:center;
+	}
+	
+span.status-top {
+	font-family:Gentium Basic, Georgia, Times, serif;
+	font-size:25px;
+	color:#FFFFFF;	
+	}
+	
+span.last-updated-top {
+  	color:#FFFFFF;	
+	font-size:14px;
+	float:right;	
+	}
+
+span.status {
+	font-family:Gentium Basic, Georgia, Times, serif;
+	font-size:18px;
+	color:#C0C0C0;	
+	}
+	
+span.last-updated {
+  	color:#C0C0C0;	
+	font-size:12px;
+	float:right;	
+	}	

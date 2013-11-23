@@ -1,0 +1,28 @@
+<html>
+<head>
+   <title>MBTA Earth</title>
+   <script src="https://www.google.com/jsapi?key=ABQIAAAAzSHWXx-HKzmTYURBPXPNOxQqPq_oM1KE1OC9pGqi-3o5POOpXBRYPj0l_kzkXLjXfz3QpYq1Ih5MGg"> </script>
+   <script type="text/javascript">
+      var ge;
+      google.load("earth", "1");
+
+      function init() {
+         google.earth.createInstance('map3d', initCB, failureCB);
+      }
+
+      function initCB(instance) {
+         ge = instance;
+         ge.getWindow().setVisibility(true);
+      }
+
+      function failureCB(errorCode) {
+      }
+
+      google.setOnLoadCallback(init);
+   </script>
+
+</head>
+<body>
+   <div id="map3d" style="height: 100%; width: 100%;"></div>
+</body>
+</html>

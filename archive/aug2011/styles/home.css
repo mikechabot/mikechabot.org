@@ -1,0 +1,174 @@
+@charset "utf-8";
+/*-------------------------------------
+          Home
+--------------------------------------*/
+
+a:link {color:#212121;text-decoration: none; font-weight:bold;}     
+a:visited {color: #212121;text-decoration: none;font-weight:bold;}     
+a:hover {color:#212121;text-decoration: underline;font-weight:bold;}
+a:active {color: #212121;text-decoration: none;font-weight:bold;} 
+
+a img {border: none;}
+
+body {
+	font-family:Calibri, Arial, Tahoma, Verdana, Times, serif;
+	}	
+
+img.bg {
+	/* Set rules to fill background */
+	min-height: 100%;
+	min-width: 1024px;
+	z-index:-1;
+	
+	/* Set up proportionate scaling */
+	width: 100%;
+	height: auto;
+	
+	/* Set up positioning */
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+@media screen and (max-width: 1024px){
+	img.bg {
+		left: 50%;
+		margin-left: -512px; }
+}
+
+
+/* Links Table */		
+
+table.links {
+	width:85%;
+	cellpadding:0; 
+	cellspacing:2;
+
+}
+
+table.links th{
+	vertical-align: top;	
+	color: #333333;
+	font-style:italic;
+	font-size:16px;
+	font-weight:bold;
+}
+
+
+table.links td{
+	vertical-align: top;	
+}
+	
+	
+		
+/* Links Container */	
+.links-outer-container {
+	position:absolute;
+	bottom:75px;	
+	background:#b1b1b1;	
+	left:0px;
+	width:100%;
+	height:80px;
+	border-top:dotted 1px #FFFFFF;
+	border-bottom:dotted 1px #FFFFFF;
+	opacity:.65;
+	}
+
+.links-inner-container {
+	position:relative;
+	background:#b1b1b1;	
+	width:670px;
+	height:100%;
+	left:8px;
+	}	
+
+.links-inner-container table {  
+	 text-align:left;	 
+	 font-family: Calibri, Arial, Tahoma, Verdana, Times, serif;
+         }
+	
+.links-inner-container ul {
+    	list-style-type:none;	
+	padding:0px;
+	margin:0px;
+	text-indent:3px;
+	font-size:13px;
+	line-height:1.25em;
+	}	
+		
+
+
+/* Left Container (holds Twitter and Grooveshark)*/	
+
+.left-container {
+	position:static;	
+     	}   
+  	
+     	
+
+/* Twitter Container */	
+.twitter-container {
+        position:relative;
+        float:right;
+    	width:300px;
+	background:#b1b1b1;		
+	border:dotted 1px #FFFFFF;	
+	opacity:.65;
+    	}
+	
+.twitter-container table {	
+	float:right;			
+	color:#FFFFFF;
+	border-bottom:solid 1px #FFFFFF;
+    	}  
+	
+.twitter-text-container {
+	background:#b1b1b1;
+	padding-top:12%;	
+	padding-bottom:6%;
+	padding-left:5%;
+	padding-right:5%;
+	}	
+		
+.twitter-text-container span#twitter_update_list {
+	list-style-type:none;	
+	font-family: Georgia, Palatino, Garamond, Tahoma, Verdana, Times, serif;
+	font-style:italic;
+	font-size:19px;
+	color:#4A4A4A;		
+	}
+
+.twitter-container span#last_updated{    
+  	color:#FFFFFF;	
+	font-style:italic;
+	font-size:16px;
+	float:right;
+	padding-right:10px;
+    	}
+
+
+	
+/* Grooveshark Container */		
+.grooveshark-container {    
+	position:absolute;
+	right:8px;
+	width:300px;
+	height:40px;
+	bottom:95px;
+	background:#b1b1b1;	
+	border:dotted 1px #FFFFFF;	
+	z-index: 1;
+    	}	
+	
+
+/* Grooveshark Container */		
+.older {    
+	position:absolute;
+	right:8px;
+	width:300px;
+	height:40px;
+	bottom:93px;
+	background:#b1b1b1;	
+	border:dotted 1px #FFFFFF;	
+    	}	
+	

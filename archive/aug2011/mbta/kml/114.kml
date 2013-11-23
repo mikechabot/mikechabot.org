@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>114.kml</name>
+	<open>1</open>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>3</width>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>Routes</name>
+		<Folder>
+			<name>&lt;b&gt;114&lt;/b&gt;</name>
+			<Folder>
+				<name>Patterns</name>
+				<Placemark>
+					<name>Pattern 1 (trips: 2)</name>
+					<description>Trips using this pattern (2 in total)</description>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<LineString>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-71.009407,42.414742,0 -71.010223,42.413479,0 -71.01123800000001,42.41188,0 -71.01211499999999,42.4105,0 -71.013687,42.408028,0 -71.01435100000001,42.406902,0 -71.016319,42.405006,0 -71.017326,42.404137,0 -71.019699,42.402069,0 -71.021034,42.400909,0 -71.02233099999999,42.399769,0 -71.02351400000001,42.398838,0 -71.02525300000001,42.397842,0 -71.026855,42.396946,0 -71.028435,42.396038,0 -71.029579,42.39539,0 -71.030991,42.394588,0 -71.032394,42.393803,0 -71.034187,42.392834,0 -71.035912,42.391811,0 -71.0382,42.390289,0 -71.037796,42.389416,0 -71.03873400000001,42.387993,0 -71.03937500000001,42.382702,0 -71.039345,42.381439,0 -71.03931400000001,42.380398,0 -71.039284,42.378731,0 -71.039238,42.377201,0 -71.039185,42.37566,0 -71.039124,42.37339,0 -71.039101,42.372337,0 -71.03907,42.371269,0 -71.03961200000001,42.370533,0 -71.040581,42.36935,0 -71.03953,42.369119,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>&lt;b&gt;114&lt;/b&gt;</name>
+			<Folder>
+				<name>Patterns</name>
+				<Placemark>
+					<name>Pattern 1 (trips: 1)</name>
+					<description>Trips using this pattern (1 in total)</description>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<LineString>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-71.009407,42.414742,0 -71.010223,42.413479,0 -71.01123800000001,42.41188,0 -71.01211499999999,42.4105,0 -71.013687,42.408028,0 -71.01435100000001,42.406902,0 -71.016319,42.405006,0 -71.017326,42.404137,0 -71.019699,42.402069,0 -71.021034,42.400909,0 -71.02233099999999,42.399769,0 -71.02351400000001,42.398838,0 -71.02525300000001,42.397842,0 -71.026855,42.396946,0 -71.028435,42.396038,0 -71.029579,42.39539,0 -71.030991,42.394588,0 -71.032394,42.393803,0 -71.034187,42.392834,0 -71.035912,42.391811,0 -71.0382,42.390289,0 -71.037796,42.389416,0 -71.03873400000001,42.387993,0 -71.03937500000001,42.382702,0 -71.039345,42.381439,0 -71.03931400000001,42.380398,0 -71.039284,42.378731,0 -71.039238,42.377201,0 -71.039185,42.37566,0 -71.039124,42.37339,0 -71.039101,42.372337,0 -71.03907,42.371269,0 -71.03961200000001,42.370533,0 -71.040581,42.36935,0 -71.03953,42.369119,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>&lt;b&gt;114&lt;/b&gt;</name>
+			<Folder>
+				<name>Patterns</name>
+				<Placemark>
+					<name>Pattern 1 (trips: 9)</name>
+					<description>Trips using this pattern (9 in total)</description>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<LineString>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-71.03953,42.369119,0 -71.03894,42.371334,0 -71.038971,42.372158,0 -71.039001,42.373451,0 -71.039063,42.375725,0 -71.039108,42.377262,0 -71.039154,42.378551,0 -71.039185,42.380459,0 -71.03923,42.381882,0 -71.03924600000001,42.382519,0 -71.038719,42.387787,0 -71.037483,42.389629,0 -71.035477,42.390301,0 -71.034126,42.392532,0 -71.03278400000001,42.393459,0 -71.03282900000001,42.393993,0 -71.034187,42.392834,0 -71.035912,42.391811,0 -71.03864299999999,42.392216,0 -71.038994,42.393425,0 -71.039368,42.394836,0 -71.039742,42.395927,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<name>Pattern 2 (trips: 9)</name>
+					<description>Trips using this pattern (9 in total)</description>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<LineString>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-71.039742,42.395927,0 -71.03936,42.394302,0 -71.036278,42.39473,0 -71.03424800000001,42.395027,0 -71.033615,42.394447,0 -71.034187,42.392834,0 -71.035912,42.391811,0 -71.0382,42.390289,0 -71.037796,42.389416,0 -71.03873400000001,42.387993,0 -71.03937500000001,42.382702,0 -71.039345,42.381439,0 -71.03931400000001,42.380398,0 -71.039284,42.378731,0 -71.039238,42.377201,0 -71.039185,42.37566,0 -71.039124,42.37339,0 -71.039101,42.372337,0 -71.03907,42.371269,0 -71.03961200000001,42.370533,0 -71.040581,42.36935,0 -71.03953,42.369119,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>&lt;b&gt;114&lt;/b&gt;</name>
+			<Folder>
+				<name>Patterns</name>
+				<Placemark>
+					<name>Pattern 1 (trips: 21)</name>
+					<description>Trips using this pattern (21 in total)</description>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<LineString>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-71.034126,42.392532,0 -71.03278400000001,42.393459,0 -71.03282900000001,42.393993,0 -71.034187,42.392834,0 -71.035912,42.391811,0 -71.0382,42.390289,0 -71.037796,42.389416,0 -71.03873400000001,42.387993,0 -71.03937500000001,42.382702,0 -71.039345,42.381439,0 -71.03931400000001,42.380398,0 -71.039284,42.378731,0 -71.039238,42.377201,0 -71.039185,42.37566,0 -71.039124,42.37339,0 -71.039101,42.372337,0 -71.03907,42.371269,0 -71.03961200000001,42.370533,0 -71.040581,42.36935,0 -71.03953,42.369119,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<name>Pattern 2 (trips: 20)</name>
+					<description>Trips using this pattern (20 in total)</description>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<LineString>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-71.03953,42.369119,0 -71.03894,42.371334,0 -71.038971,42.372158,0 -71.039001,42.373451,0 -71.039063,42.375725,0 -71.039108,42.377262,0 -71.039154,42.378551,0 -71.039185,42.380459,0 -71.03923,42.381882,0 -71.03924600000001,42.382519,0 -71.038719,42.387787,0 -71.037483,42.389629,0 -71.035477,42.390301,0 -71.034126,42.392532,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>&lt;b&gt;114&lt;/b&gt;</name>
+			<Folder>
+				<name>Patterns</name>
+				<Placemark>
+					<name>Pattern 1 (trips: 42)</name>
+					<description>Trips using this pattern (42 in total): 11531600-BUSN49-hbl49011-Weekday-03, 11531602-BUSN49-hbl49011-Weekday-03, 11531604-BUSN49-hbl49011-Weekday-03, 11531605-BUSN49-hbl49011-Weekday-03, 11531625-BUSN49-hbl49011-Weekday-03, 11531627-BUSN49-hbl49011-Weekday-03, 11531628-BUSN49-hbl49011-Weekday-03, 11531631-BUSN49-hbl49011-Weekday-03, 11531633-BUSN49-hbl49011-Weekday-03, 11531635-BUSN49-hbl49011-Weekday-03, 11532074-BUSN49-hbl49011-Weekday-03, 11532108-BUSN49-hbl49011-Weekday-03, 11532109-BUSN49-hbl49011-Weekday-03, 11532110-BUSN49-hbl49011-Weekday-03, 11532111-BUSN49-hbl49011-Weekday-03, 11532112-BUSN49-hbl49011-Weekday-03, 11532113-BUSN49-hbl49011-Weekday-03, 11532114-BUSN49-hbl49011-Weekday-03, 11532115-BUSN49-hbl49011-Weekday-03, 11532116-BUSN49-hbl49011-Weekday-03, 11532117-BUSN49-hbl49011-Weekday-03, 11641488-BUSN49-hbl49ns1-Weekday-03, 11641490-BUSN49-hbl49ns1-Weekday-03, 11641492-BUSN49-hbl49ns1-Weekday-03, 11641493-BUSN49-hbl49ns1-Weekday-03, 11641513-BUSN49-hbl49ns1-Weekday-03, 11641515-BUSN49-hbl49ns1-Weekday-03, 11641516-BUSN49-hbl49ns1-Weekday-03, 11641519-BUSN49-hbl49ns1-Weekday-03, 11641521-BUSN49-hbl49ns1-Weekday-03, 11641523-BUSN49-hbl49ns1-Weekday-03, 11641956-BUSN49-hbl49ns1-Weekday-03, 11641990-BUSN49-hbl49ns1-Weekday-03, 11641991-BUSN49-hbl49ns1-Weekday-03, 11641992-BUSN49-hbl49ns1-Weekday-03, 11641993-BUSN49-hbl49ns1-Weekday-03, 11641994-BUSN49-hbl49ns1-Weekday-03, 11641995-BUSN49-hbl49ns1-Weekday-03, 11641996-BUSN49-hbl49ns1-Weekday-03, 11641997-BUSN49-hbl49ns1-Weekday-03, 11641998-BUSN49-hbl49ns1-Weekday-03, 11641999-BUSN49-hbl49ns1-Weekday-03</description>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<LineString>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-71.034126,42.392532,0 -71.03278400000001,42.393459,0 -71.03282900000001,42.393993,0 -71.034187,42.392834,0 -71.035912,42.391811,0 -71.0382,42.390289,0 -71.037796,42.389416,0 -71.03873400000001,42.387993,0 -71.03937500000001,42.382702,0 -71.039345,42.381439,0 -71.03931400000001,42.380398,0 -71.039284,42.378731,0 -71.039238,42.377201,0 -71.039185,42.37566,0 -71.039124,42.37339,0 -71.039101,42.372337,0 -71.03907,42.371269,0 -71.03961200000001,42.370533,0 -71.040581,42.36935,0 -71.03953,42.369119,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<name>Pattern 2 (trips: 40)</name>
+					<description>Trips using this pattern (40 in total): 11531599-BUSN49-hbl49011-Weekday-03, 11531601-BUSN49-hbl49011-Weekday-03, 11531603-BUSN49-hbl49011-Weekday-03, 11531624-BUSN49-hbl49011-Weekday-03, 11531626-BUSN49-hbl49011-Weekday-03, 11531630-BUSN49-hbl49011-Weekday-03, 11531632-BUSN49-hbl49011-Weekday-03, 11531634-BUSN49-hbl49011-Weekday-03, 11532097-BUSN49-hbl49011-Weekday-03, 11532098-BUSN49-hbl49011-Weekday-03, 11532099-BUSN49-hbl49011-Weekday-03, 11532100-BUSN49-hbl49011-Weekday-03, 11532101-BUSN49-hbl49011-Weekday-03, 11532102-BUSN49-hbl49011-Weekday-03, 11532103-BUSN49-hbl49011-Weekday-03, 11532104-BUSN49-hbl49011-Weekday-03, 11532105-BUSN49-hbl49011-Weekday-03, 11532106-BUSN49-hbl49011-Weekday-03, 11532107-BUSN49-hbl49011-Weekday-03, 11532122-BUSN49-hbl49011-Weekday-03, 11641487-BUSN49-hbl49ns1-Weekday-03, 11641489-BUSN49-hbl49ns1-Weekday-03, 11641491-BUSN49-hbl49ns1-Weekday-03, 11641512-BUSN49-hbl49ns1-Weekday-03, 11641514-BUSN49-hbl49ns1-Weekday-03, 11641518-BUSN49-hbl49ns1-Weekday-03, 11641520-BUSN49-hbl49ns1-Weekday-03, 11641522-BUSN49-hbl49ns1-Weekday-03, 11641979-BUSN49-hbl49ns1-Weekday-03, 11641980-BUSN49-hbl49ns1-Weekday-03, 11641981-BUSN49-hbl49ns1-Weekday-03, 11641982-BUSN49-hbl49ns1-Weekday-03, 11641983-BUSN49-hbl49ns1-Weekday-03, 11641984-BUSN49-hbl49ns1-Weekday-03, 11641985-BUSN49-hbl49ns1-Weekday-03, 11641986-BUSN49-hbl49ns1-Weekday-03, 11641987-BUSN49-hbl49ns1-Weekday-03, 11641988-BUSN49-hbl49ns1-Weekday-03, 11641989-BUSN49-hbl49ns1-Weekday-03, 11642004-BUSN49-hbl49ns1-Weekday-03</description>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<LineString>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-71.03953,42.369119,0 -71.03894,42.371334,0 -71.038971,42.372158,0 -71.039001,42.373451,0 -71.039063,42.375725,0 -71.039108,42.377262,0 -71.039154,42.378551,0 -71.039185,42.380459,0 -71.03923,42.381882,0 -71.03924600000001,42.382519,0 -71.038719,42.387787,0 -71.037483,42.389629,0 -71.035477,42.390301,0 -71.034126,42.392532,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+			</Folder>
+		</Folder>
+		<Folder>
+			<name>&lt;b&gt;114&lt;/b&gt;</name>
+			<Folder>
+				<name>Patterns</name>
+				<Placemark>
+					<name>Pattern 1 (trips: 18)</name>
+					<description>Trips using this pattern (18 in total): 11531606-BUSN49-hbl49011-Weekday-03, 11531608-BUSN49-hbl49011-Weekday-03, 11531610-BUSN49-hbl49011-Weekday-03, 11531613-BUSN49-hbl49011-Weekday-03, 11531614-BUSN49-hbl49011-Weekday-03, 11531616-BUSN49-hbl49011-Weekday-03, 11531618-BUSN49-hbl49011-Weekday-03, 11531620-BUSN49-hbl49011-Weekday-03, 11531622-BUSN49-hbl49011-Weekday-03, 11641494-BUSN49-hbl49ns1-Weekday-03, 11641496-BUSN49-hbl49ns1-Weekday-03, 11641498-BUSN49-hbl49ns1-Weekday-03, 11641501-BUSN49-hbl49ns1-Weekday-03, 11641502-BUSN49-hbl49ns1-Weekday-03, 11641504-BUSN49-hbl49ns1-Weekday-03, 11641506-BUSN49-hbl49ns1-Weekday-03, 11641508-BUSN49-hbl49ns1-Weekday-03, 11641510-BUSN49-hbl49ns1-Weekday-03</description>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<LineString>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-71.03953,42.369119,0 -71.03894,42.371334,0 -71.038971,42.372158,0 -71.039001,42.373451,0 -71.039063,42.375725,0 -71.039108,42.377262,0 -71.039154,42.378551,0 -71.039185,42.380459,0 -71.03923,42.381882,0 -71.03924600000001,42.382519,0 -71.038719,42.387787,0 -71.037483,42.389629,0 -71.035477,42.390301,0 -71.034126,42.392532,0 -71.03278400000001,42.393459,0 -71.03282900000001,42.393993,0 -71.034187,42.392834,0 -71.035912,42.391811,0 -71.03864299999999,42.392216,0 -71.038994,42.393425,0 -71.039368,42.394836,0 -71.039742,42.395927,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+				<Placemark>
+					<name>Pattern 2 (trips: 18)</name>
+					<description>Trips using this pattern (18 in total): 11531607-BUSN49-hbl49011-Weekday-03, 11531609-BUSN49-hbl49011-Weekday-03, 11531611-BUSN49-hbl49011-Weekday-03, 11531612-BUSN49-hbl49011-Weekday-03, 11531615-BUSN49-hbl49011-Weekday-03, 11531617-BUSN49-hbl49011-Weekday-03, 11531619-BUSN49-hbl49011-Weekday-03, 11531621-BUSN49-hbl49011-Weekday-03, 11531623-BUSN49-hbl49011-Weekday-03, 11641495-BUSN49-hbl49ns1-Weekday-03, 11641497-BUSN49-hbl49ns1-Weekday-03, 11641499-BUSN49-hbl49ns1-Weekday-03, 11641500-BUSN49-hbl49ns1-Weekday-03, 11641503-BUSN49-hbl49ns1-Weekday-03, 11641505-BUSN49-hbl49ns1-Weekday-03, 11641507-BUSN49-hbl49ns1-Weekday-03, 11641509-BUSN49-hbl49ns1-Weekday-03, 11641511-BUSN49-hbl49ns1-Weekday-03</description>
+					<styleUrl>#m_ylw-pushpin</styleUrl>
+					<LineString>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-71.039742,42.395927,0 -71.03936,42.394302,0 -71.036278,42.39473,0 -71.03424800000001,42.395027,0 -71.033615,42.394447,0 -71.034187,42.392834,0 -71.035912,42.391811,0 -71.0382,42.390289,0 -71.037796,42.389416,0 -71.03873400000001,42.387993,0 -71.03937500000001,42.382702,0 -71.039345,42.381439,0 -71.03931400000001,42.380398,0 -71.039284,42.378731,0 -71.039238,42.377201,0 -71.039185,42.37566,0 -71.039124,42.37339,0 -71.039101,42.372337,0 -71.03907,42.371269,0 -71.03961200000001,42.370533,0 -71.040581,42.36935,0 -71.03953,42.369119,0 
+						</coordinates>
+					</LineString>
+				</Placemark>
+			</Folder>
+		</Folder>
+	</Folder>
+</Document>
+</kml>

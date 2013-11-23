@@ -1,0 +1,286 @@
+@charset "utf-8";
+
+/*
+-----------------------------------------------------------------------------
+ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ 
+||M |||i |||k |||e |||C |||h |||a |||b |||o |||t |||. |||o |||r |||g ||
+||__|||__|||__|||__|||__|||__|||__|||__|||__|||__|||__|||__|||__|||__||
+|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|/__\|
+
+
+Take whatever you'd like
+
+-----------------------------------------------------------------------------
+*/
+
+
+/**** Screen Orientation ****/
+    	
+@media all and (orientation:landscape) {
+
+/* Cloud */
+
+.cloud {
+	position:absolute;
+	bottom:5%;
+	background-image: url(../images/cloud-lines.png);
+	width:128px;
+	height:119px;
+	color:#FFFFFF;
+	opacity:.9;
+	}
+	
+.cloud table {
+	width:100%;
+	height:100%;	
+	}
+	
+.cloud td {
+	vertical-align:bottom;	
+	text-align:center;
+	}
+	
+/* Links Container */
+
+.links-outer-container {
+	position:absolute;
+	bottom:5%;
+	left:117px;
+	background:#000000;	
+	border-top:solid 1px #FFFFFF;
+	border-right:solid 1px #FFFFFF;
+	border-bottom:solid 1px #FFFFFF;
+	width:500px;
+	opacity:.60;	
+	}	
+
+table.links {  
+	text-align:left;
+	font-family: Ropa Sans, Pontano Sans, Arial, Tahoma, Verdana, Times, serif;
+        }
+
+table.links th {
+	vertical-align: top;	
+	color: #FFFFFF;
+	font-size:20px;
+	text-align:left;
+	border-bottom:1px solid #FFFFFF;
+	}
+       
+table.links th#non-underline {
+	border-bottom:0px;
+	width:30px;
+	}
+	
+table.links th#non-underline-middle {
+	border-bottom:0px;
+	width:50px;
+	}
+	
+table.links td {
+	vertical-align: top;		
+	}
+         
+table.links ul {
+    	list-style-type:none;	
+	padding:0px;
+	margin:0px;
+	text-indent:5px;
+	color:#FFFFFF;
+	font-size:14px;
+	}	
+
+
+/* Outer Twitter Container */	
+
+.outer-twitter-container {
+	float:right;
+	width:340px;
+	border:solid 1px #FFFFFF;
+	opacity:.65;
+	background:#000000;
+	}	
+	
+.outer-twitter-container table#twitter {
+	width:100%
+	}
+	
+.outer-twitter-container table#handle {
+	border-bottom:solid 1px #FFFFFF;
+	font-size:16px;
+	align:right;
+	}	
+    	
+.outer-twitter-container span#twitter_update_list {
+	list-style-type:none;	
+	font-family: Gentium Basic, Georgia, Times, serif;
+	font-size:24px;
+	color:#FFFFFF;		
+	}
+
+.outer-twitter-container span#last_updated{    
+  	color:#FFFFFF;	
+	font-size:14px;
+	float:right;
+    	}
+  
+
+}
+
+@media all and (orientation:portrait) {
+
+/* Cloud */
+
+.cloud {
+	position:absolute;
+	bottom:5%;
+	background-image: url(../images/cloud-lines.png);
+	width:128px;
+	height:119px;
+	color:#FFFFFF;
+	opacity:.9;
+	}
+	
+.cloud table {
+	width:100%;
+	height:100%;	
+	}
+	
+.cloud td {
+	vertical-align:bottom;	
+	text-align:center;
+	font-size:10px;
+	}
+
+/* Links Container */
+
+.links-outer-container {
+	position:absolute;
+	bottom:5%;
+	left:117px;
+	background:#000000;	
+	border-top:solid 1px #FFFFFF;
+	border-right:solid 1px #FFFFFF;
+	border-bottom:solid 1px #FFFFFF;
+	width:500px;
+	opacity:.60;	
+	}	
+
+table.links {  
+	text-align:left;
+	font-family: Ropa Sans, Pontano Sans, Arial, Tahoma, Verdana, Times, serif;
+        }
+
+table.links th {
+	vertical-align: top;	
+	color: #FFFFFF;
+	font-size:20px;
+	text-align:left;
+	border-bottom:1px solid #FFFFFF;
+	}
+       
+table.links th#non-underline {
+	border-bottom:0px;
+	width:30px;
+	}
+	
+table.links th#non-underline-middle {
+	border-bottom:0px;
+	width:50px;
+	}
+	
+table.links td {
+	vertical-align: top;		
+	}
+         
+table.links ul {
+    	list-style-type:none;	
+	padding:0px;
+	margin:0px;
+	text-indent:5px;
+	color:#FFFFFF;
+	font-size:14px;
+	}	
+	
+	
+/* Outer Twitter Container */	
+
+.outer-twitter-container {
+	float:right;
+	width:100%;
+	border:solid 1px #FFFFFF;
+	opacity:.65;
+	background:#000000;
+	}	
+	
+.outer-twitter-container table#twitter {
+	width:100%
+	}
+	
+.outer-twitter-container table#handle {
+	border-bottom:solid 1px #FFFFFF;
+	font-size:16px;
+	align:right;
+	}	
+    	
+.outer-twitter-container span#twitter_update_list {
+	list-style-type:none;	
+	font-family: Gentium Basic, Georgia, Times, serif;
+	font-size:24px;
+	color:#FFFFFF;		
+	}
+
+.outer-twitter-container span#last_updated{    
+  	color:#FFFFFF;	
+	font-size:14px;
+	float:right;
+    	}
+
+}
+
+/**** Everything Else ****/
+
+a:link {color:#c0c0c0;text-decoration: none; }     
+a:visited {color: #c0c0c0;text-decoration: none;}     
+a:hover {color:#c0c0c0;text-decoration: underline;}
+a:active {color: #c0c0c0;text-decoration: none;} 
+
+a img {border: none;}
+
+body {
+	font-family: Helvetica, Verdana, Times, serif;
+	}	
+
+img.bg {
+	/* Set rules to fill background */
+	min-height: 100%;
+	min-width: 1024px;
+	z-index:-1;
+	
+	/* Set up proportionate scaling */
+	width: 100%;
+	height: auto;
+	
+	/* Set up positioning */
+	position: fixed;
+	top: 0;
+	left: 0;
+	}
+		
+/* Links Container */	
+
+.links-outer-container td{
+	vertical-align: top;
+	}
+
+/* Twitter Container */	
+.twitter-container {        	
+	background:#000000;		
+	border:solid 1px #FFFFFF;	
+	opacity:.65;	
+    	}
+ 
+.twitter-container table {			
+	color:#FFFFFF;	
+	border:bottom 1px white;
+    	} 
